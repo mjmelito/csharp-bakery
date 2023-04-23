@@ -27,7 +27,7 @@ namespace Bakery.Tests
     public void GetBreadCost_ReturnsBreadCost_Decimal()
     {
         int breadCount = 3;
-        decimal expectedCost = 10m;
+        decimal expectedCost = 10;
         Bread newBread = new Bread(breadCount);
         decimal actualCost = newBread.GetCost();
         Assert.AreEqual(expectedCost, actualCost);

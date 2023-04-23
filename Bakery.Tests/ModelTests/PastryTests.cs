@@ -25,8 +25,8 @@ namespace Bakery.Tests
     public void GetPastryCost_ReturnsPastryCost_Decimal()
     {
         // Arrange
-        int pastryCount = 3;
-        decimal expectedCost = 10m;
+        int pastryCount = 4;
+        decimal expectedCost = 6;
         Pastry newPastry = new Pastry(pastryCount);
 
         // Act
