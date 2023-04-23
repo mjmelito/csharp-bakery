@@ -12,5 +12,10 @@ namespace Bakery.Models
         {
             _pastryCount = count;
         }
+        public decimal GetCost()
+        {
+            decimal cost = 0;
+            return cost;
+        }
     }
 }
