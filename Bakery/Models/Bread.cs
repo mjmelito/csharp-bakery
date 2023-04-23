@@ -13,5 +13,11 @@ namespace Bakery.Models
         {
             _breadCount = count;
         }
+
+        public int GetCost()
+        {
+            int cost = 0;
+            return cost;
+        }
     }
 }

@@ -22,5 +22,20 @@ namespace Bakery.Tests
         int result = newBread.BreadCount;
         Assert.AreEqual(breadCount, result);
     }
+
+    [TestMethod]
+public void GetBreadCost_ReturnsBreadCost_Decimal()
+{
+    // Arrange
+    int breadCount = 3;
+    decimal expectedCost = 10m;
+    Bread newBread = new Bread(breadCount);
+
+    // Act
+    decimal actualCost = newBread.GetCost();
+
+    // Assert
+    Assert.AreEqual(expectedCost, actualCost);
+}
   }
 }
