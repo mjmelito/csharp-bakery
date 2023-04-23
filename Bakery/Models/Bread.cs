@@ -14,9 +14,11 @@ namespace Bakery.Models
             _breadCount = count;
         }
 
-        public int GetCost()
+        public decimal GetCost()
         {
-            int cost = 0;
+            decimal cost = 0;
+            int freeLoaves = _breadCount / 3;
+            cost = (_breadCount - freeLoaves) * 5;
             return cost;
         }
     }
