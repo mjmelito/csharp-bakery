@@ -2,11 +2,16 @@ namespace Bakery.Models
 {
     public class Bread
     {
-        public Bread(int count)
+        private int _breadCount;
+        public int BreadCount
         {
-            
+            get {return _breadCount; }
+            set {_breadCount = value; }
         }
 
-        public int BreadCount;
+        public Bread(int count)
+        {
+            _breadCount = count;
+        }
     }
 }
