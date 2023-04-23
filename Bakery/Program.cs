@@ -1,9 +1,13 @@
 using System; // new code
 
-class Program
+
+namespace Bakery
 {
-  static void Main()
+  class Program
   {
-    Console.WriteLine("Hello World!"); // new code
+    static void Main()
+    {
+      Console.WriteLine("Hello World!"); // new code
+    }
   }
 }
