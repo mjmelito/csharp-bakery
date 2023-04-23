@@ -1,7 +1,11 @@
 namespace Bakery.Models
 {
-    public class BreadTests
+    public class Bread
     {
+        public Bread()
+        {
+            
+        }
 
     }
 }
