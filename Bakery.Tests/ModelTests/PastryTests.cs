@@ -24,15 +24,10 @@ namespace Bakery.Tests
     [TestMethod]
     public void GetPastryCost_ReturnsPastryCost_Decimal()
     {
-        // Arrange
         int pastryCount = 4;
         decimal expectedCost = 6;
         Pastry newPastry = new Pastry(pastryCount);
-
-        // Act
         decimal actualCost = newPastry.GetCost();
-
-        // Assert
         Assert.AreEqual(expectedCost, actualCost);
     }  
   }
