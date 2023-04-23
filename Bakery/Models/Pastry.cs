@@ -10,7 +10,7 @@ namespace Bakery.Models
         }
         public Pastry(int count)
         {
-            // _breadCount = count;
+            _pastryCount = count;
         }
     }
 }

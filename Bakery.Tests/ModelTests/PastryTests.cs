@@ -14,7 +14,7 @@ namespace Bakery.Tests
         }
 
     [TestMethod]
-        public void GetBreadCount_ReturnsBreadCount_Int()
+        public void GetPastryCount_ReturnsPastryCount_Int()
         {
             int pastryCount = 3;
             Pastry newPastry = new Pastry(pastryCount);
