@@ -2,10 +2,11 @@ namespace Bakery.Models
 {
     public class Bread
     {
-        public Bread()
+        public Bread(int count)
         {
             
         }
 
+        public int BreadCount;
     }
 }
